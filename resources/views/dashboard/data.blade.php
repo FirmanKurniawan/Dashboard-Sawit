@@ -51,6 +51,7 @@
                                   <th>Berat TBS</th>
                                   <th>Status</th>
                                   <th>ID Truck</th>
+                                  <th>Time</th>
                                 </tr>
                               </thead>
                               <tbody>
@@ -64,6 +65,7 @@
                                   <td>{{ $data['beratTBS'] }}</td>
                                   <td>{{ $data['status'] }}</td>
                                   <td>{{ $data['idTruck'] }}</td>
+                                  <td>{{ $data['time'] }}</td>
                                 </tr>
                                 @endforeach
                               </tbody>
